@@ -1,0 +1,56 @@
+.magicpage-analytics-dashboard {
+  padding: 20px;
+}
+
+.dashboard-counters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.dashboard-counter {
+  flex: 1 1 200px;
+  background: #fff;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.dashboard-charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.dashboard-chart {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.dashboard-chart h2 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.dashboard-chart canvas {
+  width: 100% !important;
+  height: 250px !important;
+}
+
+.dashboard-tables {
+  margin-top: 30px;
+}
+
+.dashboard-tables h2 {
+  margin-bottom: 12px;
+}
+
+.wp-list-table {
+  background: #fff;
+  border: 1px solid #ddd;
+}
